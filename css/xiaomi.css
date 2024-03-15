@@ -1,0 +1,218 @@
+*{
+            margin: 0;
+            padding: 0;
+        }
+
+         body {
+            font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+            color: #333;
+            background-color: #fff;
+            min-width: 1226px;
+         }
+
+
+         .site-topbar{
+            width: 100%;
+            height: 40px;
+            font-size: 12px;
+            color: #b0b0b0;
+            background: #333;
+         }
+
+         .container{
+             width: 1226px;
+             margin: 0 auto;
+             /*height: 40px;*/
+             /*background-color: lightskyblue;*/
+         }
+         .topbar-nav{
+             float: left;
+             height: 40px;
+             line-height: 40px;
+         }
+
+         .topbar-nav a{
+             color: #b0b0b0;
+             line-height: 40px;
+             display: inline-block;
+             text-decoration: none;
+         }
+
+         .topbar-nav span{
+             color: #424242;
+         }
+         .topbar-cart{
+             float: right;
+             width: 120px;
+             height: 40px;
+             text-align: center;
+             line-height: 40px;
+             color: #b0b0b0;
+             background: #424242;
+
+         }
+
+         .topbar-cart a{
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: #b0b0b0;
+            background: #424242;
+            text-decoration: none;
+         }
+
+         .topbar-info{
+            float: right;
+            height: 40px;
+            line-height: 40px;
+         }
+
+         .topbar-info a{
+             float: left;
+             text-decoration: none;
+             padding: 0 5px;
+             color: #b0b0b0;
+             line-height: 40px;
+             /*background-color: orange;*/
+         }
+         .topbar-info span{
+              float: left;
+              /*color: #424242;*/
+         }
+         .site-header{
+             background-color: #616161;
+         }
+         .site-header .container{
+              width: 1226px;
+              margin: 0 auto;
+              /*background-color: orange;*/
+         }
+
+         .header-logo{
+             width: 234px;
+             float: left;
+             margin-top: 20px;
+             /*border: 1px solid red;*/
+         }
+
+
+         .header-logo .logo{
+             float: left;
+             width: 56px;
+             height: 56px;
+             background: url("//s02.mifile.cn/assets/static/image/logo-mi2.png") no-repeat;
+             background-size: 56px;
+         }
+
+         .header-nav{
+             width: 850px;
+             float: left;
+         }
+
+         .nav-list{
+
+             list-style: none;
+             float: left;
+             height: 88px;
+             padding: 12px 0 0 30px;
+             font-size: 16px;
+             /*border: 1px solid indianred;*/
+
+         }
+         .nav-list .nav-item{
+             float: left;
+         }
+
+         .nav-list .nav-item a{
+             display: block;
+             padding: 22px 10px 38px;
+             text-decoration: none;
+             color: #333;
+             /*border: 1px solid green;*/
+         }
+
+
+         .header-search{
+             float: right;
+             width: 296px;
+             /*border: 1px solid red;*/
+             margin-top: 25px;
+         }
+
+         .header-search .search-form{
+              position: relative;
+              display: block;
+              width: 296px;
+              height: 50px;
+         }
+
+         .header-search input{
+             position: absolute;
+             top: 0;
+             border: 1px solid #e0e0e0
+         }
+
+         .header-search .search-form .search-text{
+                    left: 0;
+                    width: 223px;
+                    height: 50px;
+                    padding: 0 10px;
+                    font-size: 14px;
+                    line-height: 50px;
+         }
+
+         .header-search .search-form .search-btn{
+                right: 0;
+                width: 52px;
+                height: 52px;
+                font-size: 24px;
+                background: #fff;
+                color: #616161;
+                line-height: 50px;
+         }
+
+         .clearfix:after{
+               display: block;
+               content: "";
+               clear: both;
+         }
+
+
+         .home .container{
+              width: 1226px;
+              margin: 0 auto;
+              height: 460px;
+              background-color: lightblue;
+
+         }
+
+         .home-hero .cate{
+             float: left;
+             width: 20%;
+             background-color: orange;
+             height: 460px;
+         }
+         .home-hero .lunbo{
+             float: left;
+             width: 80%;
+             background-color: lightskyblue;
+             height: 460px;
+         }
+
+         .hero-sub .home-channel-list{
+               float: left;
+               width: 20%;
+               height:170px ;
+               background-color: #616161;
+         }
+
+         .hero-sub .J_homePromoList{
+             list-style: none;
+         }
+         .hero-sub .J_homePromoList li{
+             float: left;
+             width: 316px;
+             height:170px ;
+             background-color: lightpink;
+             margin-left: 10px;
+         }
