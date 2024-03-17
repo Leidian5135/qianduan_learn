@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="func1()">设置一个数据</button>
+<button onclick="func2()">查看一个数据</button>
+<script>
+    function func1(){
+        localStorage.setItem("name","yuan");
+    }
+
+    function func2(){
+        var ret = localStorage.getItem("name");
+        console.log(ret);
+    }
+</script>
+</body>
+</html>
