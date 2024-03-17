@@ -1,0 +1,14 @@
+
+        .tb {
+            height: 300px;
+        }
+        .box{
+              margin: 10px auto;
+
+        }
+
+        .box td{
+            width: 170px;
+            text-align: center;
+        }
+
